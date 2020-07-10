@@ -4,14 +4,14 @@ You need load "shape_predictor_68_face_landmarks.dat" for dlib::shape_predictor 
 
 Also you need organize directory with images from different persons as follows and pass it as second parameter:
 
-/data_set/jason/image_0
-/data_set/jason/image_1
-/data_set/jason/image_2
-.......
-/data_set/mike/image_0
-/data_set/mike/image_1
-/data_set/mike/image_2
-.......
+/data_set/jason/image_0<br/>
+/data_set/jason/image_1<br/>
+/data_set/jason/image_2<br/>
+...<br/>
+/data_set/mike/image_0<br/>
+/data_set/mike/image_1<br/>
+/data_set/mike/image_2<br/>
+...<br/>
 
 Create directory where to save processed images and pass it as third parameter.
 
