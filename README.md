@@ -1,6 +1,7 @@
 This program preprocess images for face recognition program.
 
 You need load "shape_predictor_68_face_landmarks.dat" for dlib::shape_predictor and pass it as first argument to program.
+(You can download it here: https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2).
 
 Also you need organize directory with images from different persons as follows and pass it as second parameter:
 
