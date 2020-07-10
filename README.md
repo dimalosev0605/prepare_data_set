@@ -7,11 +7,11 @@ Also you need organize directory with images from different persons as follows a
 /data_set/jason/image_0
 /data_set/jason/image_1
 /data_set/jason/image_2
-...
+.......
 /data_set/mike/image_0
 /data_set/mike/image_1
 /data_set/mike/image_2
-...
+.......
 
 Create directory where to save processed images and pass it as third parameter.
 
