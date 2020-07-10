@@ -118,7 +118,8 @@ void process_obj_images(dlib::frontal_face_detector& frontal_face_detector,
 
 
         // crucial face points. Later we will crop face around these points.
-
+        // You can read about our crucial points here: https://ibug.doc.ic.ac.uk/resources/facial-point-annotations/
+        
         // points near ears.
         dlib::point point_0 = little_face_points[0];
         dlib::point point_1 = little_face_points[16];
@@ -130,7 +131,6 @@ void process_obj_images(dlib::frontal_face_detector& frontal_face_detector,
         // points above the eyes.
         dlib::point point_4 = little_face_points[19];
         dlib::point point_5 = little_face_points[24];
-
 
         // create rectangle from crucial points.
 
